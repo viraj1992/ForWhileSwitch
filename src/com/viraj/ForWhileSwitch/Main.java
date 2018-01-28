@@ -36,30 +36,55 @@ public class Main {
 
 		System.out.println("\n------- switch statement --------");
 
-		String nameString = "Animal Elephant";
+		String nameString = "Animal Name";
 
 		switch(nameString) {
 		case "Animal Name" : 
 			System.out.println("Animal Name");
 			break;
-			
+
 		case "Animal Cat" :
 			System.out.println("Animal Cat");
 			break;
-			
+
 		case "Animal Dog" :
 			System.out.println("Animal Dog");
 			break;
-			
+
 		case "Animal Elephant" :
 			System.out.println("Animal Elephant");
 			break;
-			
+
 		default :
 			System.out.println("No animal!!!");
 			break;
 
 		}
+
+		System.out.println("------------ break statement----------");
+		// break statement
+
+		for(int x = 0; x < 30; x++) {
+			if(x == 10){
+				break;
+			}
+			System.out.println(x);
+		}
+		
+		System.out.println("------------ continue statement----------");
+		// continue statement
+
+		for(int x = 0; x < 30; x++) {
+			if(x == 5){
+				continue;
+			}
+			System.out.println(x);
+		}
+		
+		
+		
+		
+		
 
 	}
 
